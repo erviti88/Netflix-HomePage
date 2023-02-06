@@ -1,0 +1,74 @@
+.section {
+    padding: 1em 0;
+}
+.section__top10-films {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.top10-films__h2 {
+    color: white;
+}
+
+.top10-films__ul {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.top10-films__li {
+    width: 20%;
+}
+
+.item__img {
+    transition: transform 0.3s;
+}
+
+.item__img:hover {
+    filter: grayscale(100%);
+}
+
+.item__img:hover {
+    transform:  scale(1.2);
+}
+
+.top10-films__p {
+    padding-left: 50px;
+    z-index: 1;
+    position: absolute;
+    font-size: 300px;
+    margin: -80px;
+    color: white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .top10-films {
+        width: calc(100%);
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .top10-films {
+        width: calc(50% - 1em);
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .top10-films__li {
+        width: calc(20% - 1em);
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}

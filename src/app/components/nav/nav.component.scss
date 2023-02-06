@@ -1,0 +1,29 @@
+nav {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+
+.nav__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu__ul {
+    display: flex;
+    padding: 0 2em;
+}
+
+.nav-menu__li {
+    display: flex;
+    padding: 0 2em;
+}
+
+.nav-menu__a {
+    color: white;
+}
+
+.nav-menu__a:hover {
+    text-decoration: underline;
+}
