@@ -21,6 +21,24 @@
     width: 20%;
 }
 
+.film-container {
+    position: relative;
+  }
+  
+.film-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    display: none;
+}
+  
+.film-container:hover .film-title {
+    display: block;
+}
+
 .item__img {
     transition: transform 0.3s;
 }
@@ -33,25 +51,16 @@
     transform:  scale(1.2);
 }
 
-.top10-films__p {
-    padding-left: 50px;
-    z-index: 1;
-    position: absolute;
-    font-size: 300px;
-    margin: -80px;
-    color: white;
-}
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .top10-films {
+    .top10-films__li {
         width: calc(100%);
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .top10-films {
+    .top10-films__li {
         width: calc(50% - 1em);
     }
 }

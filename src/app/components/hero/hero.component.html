@@ -2,10 +2,13 @@
     <h2 class="top10-films__h2 h2">{{ filmsList.section }}</h2>
     <ul class="top10-films__ul ul">
         <li *ngFor="let film of filmsList.films, let i = index" class="top10-films__li li">
-            <div class="overlay">
-                <a href="#">
-                    <img [src]="film.image" class="item__img img">
-                </a>
+            <div class="film-container">
+                <div class="overlay">
+                    <a href="#">
+                        <img [src]="film.image" class="item__img img">
+                    </a>
+                </div>
+                <h4 class="film-title"><b>{{ film.title }}</b></h4>   
             </div>
         </li>
     </ul>

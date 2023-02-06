@@ -127,23 +127,23 @@ export class AppComponent {
       },
       {
         title: 'Heat',
-        image: 'assets/images/Anime/evangelion.webp'
+        image: 'assets/images/Accion/heat.webp'
       },
       {
         title: 'Jack reacher',
-        image: 'assets/images/Anime/gitsarise.webp'
+        image: 'assets/images/Accion/jackreacher.webp'
       },
       {
         title: 'John wick 2',
-        image: 'assets/images/Anime/gundam.webp'
+        image: 'assets/images/Accion/johnwick2.webp'
       },
       {
         title: 'Kill Bill 2',
-        image: 'assets/images/Anime/laputa.webp'
+        image: 'assets/images/Accion/killbill2.webp'
       },
       {
         title: 'Mision Imposible',
-        image: 'assets/images/Anime/mononoke.webp'
+        image: 'assets/images/Accion/misionimposiblenacion.webp'
       },
       {
         title: 'Renacido',
