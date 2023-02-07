@@ -6,22 +6,30 @@ nav {
 
 .nav__container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
-.nav-menu__ul {
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu__ul, .nav-profile__ul {
     display: flex;
     padding: 0 2em;
 }
 
-.nav-menu__li {
-    display: flex;
-    padding: 0 2em;
+.nav-menu__li, .nav-profile__li {
+    padding: 0 1em;
 }
 
-.nav-menu__a {
+.nav-menu__a, .nav-profile__a {
     color: white;
+}
+
+.nav-menu__a--active {
+    font-weight: bold;
 }
 
 .nav-menu__a:hover {
@@ -46,8 +54,10 @@ nav {
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    
+@media only screen and (max-width: 992px) {
+    .nav-menu,  .nav__container {
+        flex-direction: column;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

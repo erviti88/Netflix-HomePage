@@ -72,7 +72,7 @@ export class AppComponent {
         image: 'assets/images/Anime/ajin.jpg'
       },
       {
-        title: 'El castillo ambulante',
+        title: 'El Castillo Ambulante',
         image: 'assets/images/Anime/castilloambulante.webp'
       },
       {
@@ -84,7 +84,7 @@ export class AppComponent {
         image: 'assets/images/Anime/evangelion.webp'
       },
       {
-        title: 'Git sarise',
+        title: 'GITS Arise',
         image: 'assets/images/Anime/gitsarise.webp'
       },
       {
@@ -96,15 +96,15 @@ export class AppComponent {
         image: 'assets/images/Anime/laputa.webp'
       },
       {
-        title: 'Mononoke',
+        title: 'La Princesa Mononoke',
         image: 'assets/images/Anime/mononoke.webp'
       },
       {
-        title: 'Nino kuni',
+        title: 'Nino Kuni',
         image: 'assets/images/Anime/ninokuni.jpg'
       },
       {
-        title: 'Perfect blue',
+        title: 'Perfect Blue',
         image: 'assets/images/Anime/perfectblue.webp'
       }
     ]
@@ -114,11 +114,11 @@ export class AppComponent {
     section: 'Action',
     films: [
       {
-        title: 'Ejército de los muertos',
+        title: 'Ejército de los Muertos',
         image: 'assets/images/Accion/ejercitomuertos.jpg'
       },
       {
-        title: 'El protector',
+        title: 'El Protector',
         image: 'assets/images/Accion/elprotector.webp'
       },
       {
@@ -130,11 +130,11 @@ export class AppComponent {
         image: 'assets/images/Accion/heat.webp'
       },
       {
-        title: 'Jack reacher',
+        title: 'Jack Reacher',
         image: 'assets/images/Accion/jackreacher.webp'
       },
       {
-        title: 'John wick 2',
+        title: 'John Wick 2',
         image: 'assets/images/Accion/johnwick2.webp'
       },
       {
@@ -156,6 +156,59 @@ export class AppComponent {
       {
         title: 'Worldwarz',
         image: 'assets/images/Accion/worldwarz.webp'
+      }
+    ]
+  };
+  public comediaFilms: FilmSection = {
+    section: 'Comedia',
+    films: [
+      {
+        title: 'Casi 300',
+        image: 'assets/images/Comedia/casi300.webp'
+      },
+      {
+        title: 'Los Cazafantasmas',
+        image: 'assets/images/Comedia/cazafantasmas.webp'
+      },
+      {
+        title: 'El Dictador',
+        image: 'assets/images/Comedia/dictador.webp'
+      },
+      {
+        title: 'Érase Una Vez en Hollywood',
+        image: 'assets/images/Comedia/erasehollywood.webp'
+      },
+      {
+        title: 'Padre de Familia',
+        image: 'assets/images/Comedia/familyguy.webp'
+      },
+      {
+        title: 'Juerga Hasta el Fin',
+        image: 'assets/images/Comedia/juerga.webp'
+      },
+      {
+        title: 'La Terminal',
+        image: 'assets/images/Comedia/laterminal.webp'
+      },
+      {
+        title: 'Los Padres de Ella',
+        image: 'assets/images/Comedia/padresella.webp'
+      },
+      {
+        title: 'Regreso al Futuro',
+        image: 'assets/images/Comedia/regresofuturo.webp'
+      },
+      {
+        title: 'Rick y Morty',
+        image: 'assets/images/Comedia/rickandmorty.webp'
+      },
+      {
+        title: 'Scary Movie 3',
+        image: 'assets/images/Comedia/scarymovie3.webp'
+      },
+      {
+        title: 'Ted 2',
+        image: 'assets/images/Comedia/ted2.webp'
       }
     ]
   };

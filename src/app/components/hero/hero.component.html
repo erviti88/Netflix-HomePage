@@ -1,7 +1,8 @@
+<!-- START TOP 10 FILMS SECTION -->
 <section class="section__top10-films section">
     <h2 class="top10-films__h2 h2">{{ filmsList.section }}</h2>
     <ul class="top10-films__ul ul">
-        <li *ngFor="let film of filmsList.films, let i = index" class="top10-films__li li">
+        <li *ngFor="let film of filmsList.films" class="top10-films__li li">
             <div class="film-container">
                 <div class="overlay">
                     <a href="#">
@@ -13,3 +14,4 @@
         </li>
     </ul>
 </section>
+<!-- END TOP 10 FILMS SECTION -->
